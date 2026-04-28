@@ -11,6 +11,13 @@ int minAltitude, maxAltitude;
 City[] cities; 
 
 
+
+int minPopulationToDisplay = 10000; 
+final int MIN_FILTER = 1000;         
+final int MAX_FILTER = 500000;       
+
+City lastHovered = null;
+
 void setup() {
   size(700, 700);
   pixelDensity(2);
@@ -19,10 +26,21 @@ void setup() {
 }
 
 void draw(){
+      background(255);  
+
   for (int i = 0 ; i < totalCount ; i++) {
-    cities[i].display();
+    
+    if (cities[i].population >= minPopulationToDisplay) {
+      cities[i].display();
+  }
   }
   //drawDensityDistribution();
+  
+  fill(0);
+  textSize(14);
+  textAlign(LEFT, TOP);
+  text("Afficher les populations supérieures à : " + minPopulationToDisplay, 10, 10);
+
 }
 
 void readData() {
@@ -78,5 +96,53 @@ void drawDensityDistribution() {
     float xPos = map(clampedForPlot, 0, plotMaxDensity, 0, width);
     
     line(xPos, height - 80, xPos, height - 20);
+  }
+}
+
+
+void keyPressed() {
+  if (keyCode == UP) {
+    minPopulationToDisplay = (int)(minPopulationToDisplay * 1.5);
+  } else if (keyCode == DOWN) {
+    minPopulationToDisplay = (int)(minPopulationToDisplay / 1.5);
+  }
+
+  minPopulationToDisplay = constrain(minPopulationToDisplay, MIN_FILTER, MAX_FILTER);
+  redraw();
+}
+
+
+
+void mouseMoved() {
+  City hovered = pick(mouseX, mouseY);
+    if (hovered != null) println(hovered.name + " r=" + hovered.r);
+  if (hovered != lastHovered) {
+    // unhighlight previous
+    if (lastHovered != null) lastHovered.hovered = false;
+    // highlight new
+    if (hovered != null) hovered.hovered = true;
+    lastHovered = hovered;
+    if (hovered != null) println(hovered.name);
+    redraw();
+  }
+}
+
+City pick(int px, int py) {
+  for (int i = cities.length - 1; i >= 0; i--) {
+    if (cities[i].population >= minPopulationToDisplay && cities[i].contains(px, py)) {
+      return cities[i];
+    }
+  }
+  return null;
+}
+
+
+
+
+void mousePressed() {
+  City clicked = pick(mouseX, mouseY);
+  if (clicked != null) {
+    clicked.selected = !clicked.selected;  // toggle on/off
+    redraw();
   }
 }
