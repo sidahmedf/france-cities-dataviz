@@ -16,8 +16,8 @@ final int MAX_FILTER = 2125250;
 
 City lastHovered = null;
 
-int MAP_HEIGHT = 480;   
-int PANEL_HEIGHT = 120; 
+int MAP_HEIGHT = 530;   
+int PANEL_HEIGHT = 150; 
 
 
 boolean draggingSlider = false;
@@ -52,7 +52,7 @@ void setup() {
   // Example: X=600 → size(600, 720), MAP_HEIGHT=600, PANEL_HEIGHT=120
   // Current: X=500 → size(500, 600), MAP_HEIGHT=480, PANEL_HEIGHT=120
   
-  size(500, 600);
+  size(530,680);
   pixelDensity(2);
   smooth(8);
   readData();
