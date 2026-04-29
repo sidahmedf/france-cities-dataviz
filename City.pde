@@ -45,8 +45,8 @@ void display() {
   float maxLogDensity = 10.5; 
   float colorRatio = constrain(map(logDensity, 0, maxLogDensity, 0, 1), 0, 1);
   
-  color lowDensity  = color(255, 247, 140);  // yellow = sparse
-  color highDensity = color(73,  0,  106);   // purple = dense
+   color lowDensity  = color(200, 190, 230); 
+  color highDensity = color(50, 0, 80);      // keep dark purple
   color cityColor = lerpColor(lowDensity, highDensity, colorRatio);
 
   
