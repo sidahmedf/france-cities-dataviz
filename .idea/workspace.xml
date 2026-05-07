@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7fe515b5-a171-4da0-90bd-ebca84ae012e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP2 -  Programmation d'une expérience contrôlée/.idea/csv-editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP2 -  Programmation d'une expérience contrôlée/.idea/csv-editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP3 -  Expérience contrôlée et analyse des résultats/logs.Rmd" beforeDir="false" afterPath="$PROJECT_DIR$/../TP3 -  Expérience contrôlée et analyse des résultats/logs.Rmd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP3 -  Expérience contrôlée et analyse des résultats/logs.html" beforeDir="false" afterPath="$PROJECT_DIR$/../TP3 -  Expérience contrôlée et analyse des résultats/logs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP4 - TP Technique d'entrée de texte/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../TP4 - TP Technique d'entrée de texte/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP4 - TP Technique d'entrée de texte/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TP4 - TP Technique d'entrée de texte/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP4 - TP Technique d'entrée de texte/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../TP4 - TP Technique d'entrée de texte/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP4 - TP Technique d'entrée de texte/dtw.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TP4 - TP Technique d'entrée de texte/dtw.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP4 - TP Technique d'entrée de texte/keyboard_widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TP4 - TP Technique d'entrée de texte/keyboard_widget.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TP4 - TP Technique d'entrée de texte/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TP4 - TP Technique d'entrée de texte/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Users/Lenovo/Desktop/M1/IHM/tp-ihm-2026-sid-ahmed-ferroudj/TP5 - Visualisation" value="3DOcbJXsqVFEQJ5zBBpzbSyBMR8" />
+    </persistenceIdMap>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="3DOcbJXsqVFEQJ5zBBpzbSyBMR8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/Lenovo/Desktop/M1/IHM/tp-ihm-2026-sid-ahmed-ferroudj/TP5 - Visualisation"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-98f27166c754-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.21829.153" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7fe515b5-a171-4da0-90bd-ebca84ae012e" name="Changes" comment="" />
+      <created>1778156627416</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1778156627416</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
+  </component>
+</project>

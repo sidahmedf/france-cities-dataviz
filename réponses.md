@@ -1,4 +1,6 @@
-# Étape 5 : Dessiner un point par ville 
+Ce fichier rassemble les réponses aux questions nécessitant une analyse rédigée, en complément du code source
+
+### Étape 5 : Dessiner un point par ville 
 
 En gros, c'est un problème d'échelle ! Les coordonnées x et y tirées du fichier sont de tout petits nombres à virgule (par exemple -0.12 ou 0.83). Sauf que l'écran, lui, fonctionne avec des pixels entiers (de 0 à 800).
 
